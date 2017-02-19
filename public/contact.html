@@ -1,0 +1,92 @@
+<div class="container">
+    <div class="col-md-3" style="padding-top:50px;">
+        <form>
+            <legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
+            <address>
+                <strong>vinylIstanbul</strong><br>
+                795 Vinyl Sokak<br>
+                Los Angeles, CA 94107<br><br>
+                <legend></legend>
+                <span class="fa fa-phone"></span>
+                &nbsp;+90 533 493 6772<br>
+                <a href="http://www.instagram.com/vinylistanbul" target="_blank">
+                <span class="fa fa-instagram"></span>
+                &nbsp;@vinylistanbul
+                </a><br>
+                <a href="mailto:vinylistanbul@gmail.com?Subject=Hello%20Vinylist">
+                <span class="fa fa-envelope"></span>
+                &nbsp;vinylistanbul@gmail.com
+                </a>
+            </address>
+        </form>
+    </div>
+    <div class="col-md-9">
+        <div class="row carousel-holder">
+            <div class="col-md-12">
+                <div id="vinylist-carousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#vinylist-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#vinylist-carousel" data-slide-to="1"></li>
+                        <li data-target="#vinylist-carousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active"> <img class="slide-image" src="images/rdio.jpg" alt=""> </div>
+                        <div class="item"> <img class="slide-image" src="images/barg.jpg" alt=""> </div>
+                        <div class="item"> <img class="slide-image" src="images/ttable.jpg" alt=""> </div>
+                    </div>
+                    <a class="left carousel-control" href="#vinylist-carousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+                    <a class="right carousel-control" href="#vinylist-carousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div id="contactForm"  style="padding-left:14px;padding-right:15px;">
+            <div class="col-md-9 col-md-offset-3">
+                <div class="well well-sm">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">
+                                        Name</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">
+                                        Email Address</label>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                        </span>
+                                        <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" />
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">
+                                        Subject</label>
+                                    <select id="subject" name="subject" class="form-control" required="required">
+                                        <option value="na" selected="">Choose One:</option>
+                                        <option value="service">General Customer Service</option>
+                                        <option value="suggestions">Suggestions</option>
+                                        <option value="product">Product Support</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">
+                                        Message</label>
+                                    <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required" placeholder="Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                    Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
